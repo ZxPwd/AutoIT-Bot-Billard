@@ -15,7 +15,7 @@ https://github.com/ZxPwd/Billardbot-master
 ---------------------------------------------------------
 
 ### StevenIT3
-Also a big thank you to StevenIT3 for helping me how BIG TIME on getting the script too work
+Also a big thank you to StevenIT3 for helping me how BIG TIME on getting the Autoit ImageSearch too work
 I really appreciate it man!
 
 ---------------------------------------------------------
@@ -24,6 +24,7 @@ Big thank you too BotOp from Nulled.io for his awesome SaeedSearch.dll and telli
 to use it's funtions! You can check out his profile here https://www.nulled.to/user/7099-botop
 
 ---------------------------------------------------------
+
 
 
 HOW IT WORKS:
