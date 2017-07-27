@@ -55,7 +55,7 @@ tmrStartBot
 This timer searches for the inactive android tab, Clicks it, then waits 25 seconds 
 for it too load up. Then after 25 seconds the timer is stopped enabling 
 another called tmrPause.
--
+
 {#3} PROCESS OF THE FIRST BREAK
 tmrPause
 This timer is just a break period since I don't know any other way of doing it
