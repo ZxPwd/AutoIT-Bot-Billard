@@ -13,7 +13,7 @@ BillardBot
 https://github.com/ZxPwd/Billardbot-master
 
 
-# # StevenIT3
+## StevenIT3
 Also a big thank you to StevenIT3 for helping me how BIG TIME on getting the script too work
 I really appreciate it man!
 
