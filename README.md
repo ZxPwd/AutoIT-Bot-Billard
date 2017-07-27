@@ -27,8 +27,6 @@ HOW IT WORKS:
 2) Restarter uses SaeedSearch.dll found on Nulled.io forums to find 
 images to click on but uses too much memory to make use for the entire bot.
 
----------------------------------------------------------
----------------------------------------------------------
 
 A) BillardBot:
 Start will start all bots in the CurrentDir folder named "bots" which is the 
