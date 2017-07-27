@@ -1,4 +1,8 @@
 #include <ImageSearch2015.au3>
+#include <MsgBoxConstants.au3>
+#NoTrayIcon
+
+Opt("TrayIconHide", 1)
 
 #Region TESTING/Example
 Local $bTesting = true; Change to TRUE to turn on testing/example
