@@ -1,5 +1,7 @@
 # AutoIT-Bot-Billard
 
+Video preview of bot: https://www.youtube.com/watch?v=o6vKV7G7io4
+
 ---------------------------------------------------------
 All 3 projects are needed:
 
