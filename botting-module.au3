@@ -102,6 +102,7 @@ Do
    Local $testimage59 = "image\exitspin.bmp"
    Local $testimage60 = "image\facebook.bmp"
    Local $testimage61 = "image\playbackexit.bmp"
+   Local $testimage62 = "image\exit44.bmp"
   ; Local $testimage51 = "image\"
 
 
@@ -171,7 +172,7 @@ Do
    Local $y59 = 0, $x59 = 0, $result59
    Local $y60 = 0, $x60 = 0, $result60
    Local $y61 = 0, $x61 = 0, $result61
-   ;Local $y62 = 0, $x62 = 0, $result62
+   Local $y62 = 0, $x62 = 0, $result62
    ;Local $y63 = 0, $x63 = 0, $result63
 
    $result1 = _ImageSearch($testimage1, 1, $x1, $y1, 30, 0);_ImageSearch($findImage, $resultPosition, ByRef $x, ByRef $y, $tolerance, $transparency = 0)
@@ -606,6 +607,13 @@ $result47 = _ImageSearch($testimage47, 1, $x47, $y47, 30, 0);_ImageSearch($findI
    if $result61 =1 Then
 	  MouseMove ($x20, $y20, 0)
 	  MouseClick("primary", $x61, $y61, 1 ,.61)
+	  ;cr("+" & "recognised exit")
+   EndIf
+	  $result62 = _ImageSearch($testimage62, 1, $x62, $y62, 30, 0);_ImageSearch($findImage, $resultPosition, ByRef $x, ByRef $y, $tolerance, $transparency = 0)
+   ;cr($result62)
+   if $result62 =1 Then
+	  MouseMove ($x20, $y20, 0)
+	  MouseClick("primary", $x62, $y62, 1 ,.62)
 	  ;cr("+" & "recognised exit")
    EndIf
 #comments-start
