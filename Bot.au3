@@ -100,6 +100,8 @@ Do
    Local $exitbmp43 = "image\exit43.bmp"
    Local $exitbmp44 = "image\exit44.bmp"
    Local $exitbmp45 = "image\exit45.bmp"
+   Local $exitbmp46 = "image\exit46.bmp"
+   Local $exitbmp47 = "image\exit47.bmp"
 
    Local $button1 = "image\btnclose.bmp"
    Local $button2 = "image\btnyes.bmp"
@@ -168,6 +170,8 @@ Do
    Local $y1 = 0, $x1 = 0, $exitbmp43
    Local $y1 = 0, $x1 = 0, $exitbmp44
    Local $y1 = 0, $x1 = 0, $exitbmp45
+   Local $y1 = 0, $x1 = 0, $exitbmp46
+   Local $y1 = 0, $x1 = 0, $exitbmp47
 
 
 
@@ -489,6 +493,18 @@ $exitresult1 = _ImageSearch($exitbmp1, 1, $x1, $y1, 30, 0)
 
             $exitresult45= _ImageSearch($exitbmp45, 1, $x1, $y1, 30, 0)
      if $exitresult45 =1 Then
+	  MouseMove ($x1, $y1, 0)
+	  MouseClick("primary", $x1, $y1, 1 ,.50)
+   EndIf
+
+$exitresult46= _ImageSearch($exitbmp46, 1, $x1, $y1, 30, 0)
+     if $exitresult46 =1 Then
+	  MouseMove ($x1, $y1, 0)
+	  MouseClick("primary", $x1, $y1, 1 ,.50)
+   EndIf
+
+$exitresult47= _ImageSearch($exitbmp47, 1, $x1, $y1, 30, 0)
+     if $exitresult47 =1 Then
 	  MouseMove ($x1, $y1, 0)
 	  MouseClick("primary", $x1, $y1, 1 ,.50)
    EndIf
